@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C034A63-894D-46EA-9906-FA4F676C6115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D96D95DC-8407-43FA-9D7D-7BF3A8DECDA9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChessAI", "src\ChessAI\ChessAI.xproj", "{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChessWeb", "src\ChessWeb\ChessWeb.xproj", "{DE34D967-C960-433D-8E2D-0593D8C89CBD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChessAIConsole", "src\ChessAIConsole\ChessAIConsole.xproj", "{2DB5E155-E56E-4B6F-B815-F982E21C72EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE34D967-C960-433D-8E2D-0593D8C89CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE34D967-C960-433D-8E2D-0593D8C89CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE34D967-C960-433D-8E2D-0593D8C89CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE34D967-C960-433D-8E2D-0593D8C89CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB5E155-E56E-4B6F-B815-F982E21C72EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB5E155-E56E-4B6F-B815-F982E21C72EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB5E155-E56E-4B6F-B815-F982E21C72EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB5E155-E56E-4B6F-B815-F982E21C72EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC6E52C2-2FBD-4B5F-A26F-9CD4C2D5282E} = {9C034A63-894D-46EA-9906-FA4F676C6115}
+		{DE34D967-C960-433D-8E2D-0593D8C89CBD} = {9C034A63-894D-46EA-9906-FA4F676C6115}
+		{2DB5E155-E56E-4B6F-B815-F982E21C72EB} = {9C034A63-894D-46EA-9906-FA4F676C6115}
+	EndGlobalSection
+EndGlobal
